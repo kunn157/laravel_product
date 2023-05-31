@@ -1,0 +1,39 @@
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.row-tabble{
+    width: 2500px;
+    max-width: 100%;
+    padding-left: 250px;
+    padding-top: 20px;
+}
+.btn_click{
+    background-color: #0074e7;
+    color: rgb(243, 240, 240);
+}
+.btn_click:last-child {
+    background-color: #0c9b32;
+    color: rgb(243, 240, 240);
+}
+.btn_action:first-child {
+    background-color: #1238e0;
+    color: rgb(243, 240, 240);
+}
+.btn_action:last-child {
+    background-color: #cf0a0a;
+    color: rgb(243, 240, 240);
+}
+.card-primary-form{
+    width: 1000px;
+    max-width: 100%;
+    margin:20px auto;
+}
+.card-primary-form .btn-primary{
+    margin: auto;
+    display: flex;
+}
+.card-footer{
+    display: flex;
+    justify-content: space-between;
+}

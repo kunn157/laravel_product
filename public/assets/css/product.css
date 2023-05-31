@@ -1,0 +1,28 @@
+.productview{
+    width: 500px;
+    background-color: rgb(240, 234, 234);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,50%)scale(0.1);
+    text-align: left;
+    padding: 0 30px 30px ;
+    color: #333;
+    display: flex;
+    justify-content: space-between;
+    visibility: hidden;
+    transition: transform 0.4s, top 0.4s;
+}
+img{
+    width: 180px;
+    margin-top: 20px;
+}
+.left{
+    margin-top: 20px;
+}
+.open-product{
+ visibility: visible;
+ top: 20%;
+ transform: translate(-50%,50%)scale(1);
+}

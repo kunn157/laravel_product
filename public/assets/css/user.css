@@ -1,0 +1,19 @@
+.ImdID{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.avatar{
+    display: block;
+    margin: 0 auto;
+    max-width: 180px;
+    padding-top:20px;
+}
+.btn_action:first-child {
+    background-color: #1238e0;
+    color: rgb(243, 240, 240);
+}
+.btn_action:last-child {
+    background-color: #cf0a0a;
+    color: rgb(243, 240, 240);
+}
